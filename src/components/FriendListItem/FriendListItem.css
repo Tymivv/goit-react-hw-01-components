@@ -1,0 +1,23 @@
+.id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-status {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(197, 19, 19);
+  border-radius: 15px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(41, 216, 56);
+  border-radius: 15px;
+}
+
+.friend-list {
+  display: table;
+  margin: 50px auto;
+}

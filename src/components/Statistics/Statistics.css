@@ -1,0 +1,29 @@
+.statistics {
+}
+
+.stat-list {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  padding: 40 px;
+}
+.label {
+  margin-bottom: 10px;
+}
+.item {
+  background-color: rgb(104, 209, 250);
+  color: aliceblue;
+  padding: 10px;
+}
+.item:nth-child(2) {
+  background-color: rgb(140, 66, 238);
+}
+.item:nth-child(3) {
+  background-color: rgb(238, 10, 2);
+}
+.item:nth-child(5) {
+  background-color: rgb(16, 141, 16);
+}
