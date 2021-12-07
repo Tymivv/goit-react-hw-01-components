@@ -3,11 +3,10 @@ import PropTypes from 'prop-types';
 import styles from './Statistics.css';
 import data from '../../Data/data.json';
 
-const Statistics = ({ data }) => {
+const Statistics = ({ title, data }) => {
   return (
     <section className="statistics">
-      <h2 className="title">Upload stats</h2>
-
+      {title && <h2 className="title">{title}</h2>}
       <ul className="stat-list">
         {data.map(({ id, label, percentage }) => (
           <li key={id} className="item">
